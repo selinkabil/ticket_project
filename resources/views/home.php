@@ -16,6 +16,11 @@
       display: grid;
       grid-template-columns: auto ;
     }
+    .top{
+      position: relative;
+      width: 100vw;
+      height: 90vh;
+    }
     .image-hero{
       width: 100vw;
       height: 90vh;
@@ -26,15 +31,42 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-
+    }
     .hero-section{
       width: 100vw;
       height: 90vh;
       background-color: black;
       opacity: 50%;
       color: white;
-     }
-}
+      position: absolute;
+    }
+    .top-bar{
+      display:flex;
+      justify-content: space-between;
+      color:white;
+      position: absolute;
+      width: 100vw;
+      padding-top:4em;
+      
+      
+    }
+    .logo-name{
+      width: 40vw;
+      font-family: "Alata", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: larger;
+      padding-left: 9em;
+    }
+    .pages-names{
+      display: flex;
+      justify-content:space-between;
+      font-family: "Alata", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      width: 30vw;
+      padding-right: 8em;
+    }
   </style>
 </head>
 <body>
@@ -43,21 +75,20 @@
   
 <img class="image-hero" src="https://i.postimg.cc/L8KXCc4L/image-hero.jpg" alt="Description of the hero image">
 <div class="hero-section">
-  <div class="top-bar">
+</div>
+
+<div class="top-bar">
     <div class="logo-name">
       Loopstudios
-
     </div>
     <div class="pages-names">
-      About
-      Careers
-      Events
-      Products
-      Support
+      <span>About</span>
+      <span>Careers</span>
+      <span>Events</span>
+      <span>Products</span>
+      <span>Support</span>
     </div>
   </div>
-
-</div>
 </div>
 <div class="middle"></div>
 <div class="bottom"></div>
