@@ -86,6 +86,31 @@
       border: 3px solid white;
       
     }
+    .middle{
+      height: 70vh;
+      margin: 10em;
+      position: relative;
+    }
+    .mid-img{
+      position: absolute;
+      width: 50vw;
+    }
+    .mid-text{
+      position: absolute;
+      width: 30vw;
+      height:60%;
+      background-color: white;
+      font-family: "Quicksand", sans-serif;
+      font-size: 10pt;
+      margin-top: 15%;
+      margin-left: 50%;
+      padding: 5em;
+    }
+    .header{
+      font-family: "Quicksand", sans-serif;
+      font-size: 40pt;
+      text-transform: uppercase;
+    }
   </style>
 </head>
 <body>
@@ -117,21 +142,31 @@ THAT DELIVER
   
 </div></div>
 </div>
-<div class="middle"></div>
+
+
+<div class="middle">
+
+  <div class="mid-img">
+    <img src="https://i.postimg.cc/pr3Tt7fN/image-interactive.jpg" alt="">
+  </div>
+  <div class="mid-text">
+    <div class="header">The leader in interactive VR</div>
+
+    Founded in 2011, Loopstudios has been producing world-class virtual reality 
+    projects for some of the best companies around the globe. Our award-winning 
+    creations have transformed businesses through digital experiences that bind 
+    to their brand.
+  </div>
+
+
+</div>
 <div class="bottom"></div>
 
 </div>
 
 </body>
 
-  Immersive experiences that deliver
-
-  The leader in interactive VR
-
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
+  
 
   Our creations
 
