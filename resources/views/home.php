@@ -88,7 +88,7 @@
     }
     .middle{
       height: 70vh;
-      margin: 10em;
+      margin: 10%;
       position: relative;
     }
     .mid-img{
@@ -111,13 +111,40 @@
       font-size: 40pt;
       text-transform: uppercase;
     }
+    .bottom{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .bottom-text{
+      margin-bottom: 5%;
+      font-size: 40pt;
+      text-transform: uppercase;
+    }
+    .bottom-grid-cont{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 30px;
+      margin-bottom: 5%;
+    }
+    .elements>.text{
+      
+      font-family: "Quicksand", sans-serif;
+      font-size: 20pt;
+    }
+    .bottom-bar{
+      width: 100vw;
+      height: 5vh;
+      background-color: black;
+    bottom: 0;
+    margin:0;
+    }
   </style>
 </head>
 <body>
 <div class="main-grid">
 <div class="top">
 
-<img class="image-hero" src="https://i.postimg.cc/L8KXCc4L/image-hero.jpg" alt="Description of the hero image">
+<img class="image-hero" src="http://localhost:8000/images/image-hero.jpg" alt="Description of the hero image">
 <div class="hero-section">
 </div>
 <div class="visible">
@@ -147,7 +174,7 @@ THAT DELIVER
 <div class="middle">
 
   <div class="mid-img">
-    <img src="https://i.postimg.cc/pr3Tt7fN/image-interactive.jpg" alt="">
+    <img src="http://localhost:8000/images/image-interactive.jpg" alt="">
   </div>
   <div class="mid-text">
     <div class="header">The leader in interactive VR</div>
@@ -160,34 +187,42 @@ THAT DELIVER
 
 
 </div>
-<div class="bottom"></div>
+<div class="bottom">
+<div class="bottom-text">Our creations</div>
+<div class="bottom-grid-cont">
+<div class="elements">  <img src="http://localhost:8000/images/image-deep-earth.jpg" alt="Deep earth">
+<div class="text">Deep earth</div>
+</div>
+<div class="elements">  <img src="http://localhost:8000/images/image-night-arcade.jpg" alt="Night arcade">
+<div class="text">Night arcade</div>
+</div>
+<div class="elements">  <img src="http://localhost:8000/images/image-soccer-team.jpg" alt="Soccer team VR">
+<div class="text">Soccer team VR</div>
+</div>
+<div class="elements">  <img src="http://localhost:8000/images/image-grid.jpg" alt="The grid">
+<div class="text">The grid</div>
+</div>
+<div class="elements">  <img src="http://localhost:8000/images/image-from-above.jpg" alt="From up above VR">
+<div class="text">From up above VR</div>
+</div>
+<div class="elements">  <img src="http://localhost:8000/images/image-pocket-borealis.jpg" alt="Pocket borealis">
+<div class="text">Pocket borealis</div>
+</div>
+<div class="elements">  <img src="http://localhost:8000/images/image-curiosity.jpg" alt="The curiosity">
+<div class="text">The curiosity</div>
+</div>
+<div class="elements">  <img src="http://localhost:8000/images/image-fisheye.jpg" alt="Make it fisheye">
+<div class="text">Make it fisheye</div>
+</div>
+</div>
 
+
+
+
+</div>
+<div class="bottom-bar"></div>
 </div>
 
 </body>
-
-  
-
-  Our creations
-
-  See all
-
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved.
-  <?php echo realpath('../css/app.css'); ?>
 </body>
 </html>
