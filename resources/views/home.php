@@ -6,8 +6,12 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Loopstudios landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -32,6 +36,7 @@
     padding: 0;
     overflow-x: hidden;
     }
+    
     .hero-section{
       width: 100vw;
       height: 90vh;
@@ -40,23 +45,27 @@
       color: white;
       position: absolute;
     }
+    .visible{
+      position: absolute;
+      height: 100%;
+    }
     .top-bar{
       display:flex;
       justify-content: space-between;
       color:white;
-      position: absolute;
       width: 100vw;
       padding-top:4em;
-      
+      height: 25%;
       
     }
     .logo-name{
       width: 40vw;
       font-family: "Alata", sans-serif;
       font-weight: 400;
-      font-style: normal;
-      font-size: larger;
-      padding-left: 9em;
+      font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+      font-size: 23pt;
+      padding-left: 10%;
     }
     .pages-names{
       display: flex;
@@ -65,18 +74,28 @@
       font-weight: 500;
       font-style: normal;
       width: 30vw;
-      padding-right: 8em;
+      padding-right: 10%;
+    }
+    .hero-text{
+      color:white;
+      margin-left: 10%;
+      padding:0.5em;
+      font-family: "Quicksand", sans-serif;
+      font-size: 40pt;
+      width: 40vw;
+      border: 3px solid white;
+      
     }
   </style>
 </head>
 <body>
 <div class="main-grid">
 <div class="top">
-  
+
 <img class="image-hero" src="https://i.postimg.cc/L8KXCc4L/image-hero.jpg" alt="Description of the hero image">
 <div class="hero-section">
 </div>
-
+<div class="visible">
 <div class="top-bar">
     <div class="logo-name">
       Loopstudios
@@ -89,6 +108,14 @@
       <span>Support</span>
     </div>
   </div>
+
+<div class="hero-text">
+
+IMMERSIVE<br>
+EXPERIENCES<br>
+THAT DELIVER
+  
+</div></div>
 </div>
 <div class="middle"></div>
 <div class="bottom"></div>
